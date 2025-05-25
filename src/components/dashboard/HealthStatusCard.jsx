@@ -4,8 +4,6 @@ import Teeth from '../../assets/teeth.png'
 import Lungs from '../../assets/lungs.png'
 
 const HealthStatusCard = ({ data }) => {
-    console.log(data)
-    // const Icon = iconMap[data.name];
 
     const getIcon = () => {
         switch (data.name) {
